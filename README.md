@@ -13,9 +13,9 @@ Analysis of algorithms is the determination of the amount of time and space reso
  
  Applications:
  
- a) They are used in the K-mean clustering algorithm for reducing time complexity.
- b) Completely Fair Scheduler used in current Linux kernels  
- c) Epoll system call implementation[21] uses red–black trees.
+ 1. They are used in the K-mean clustering algorithm for reducing time complexity.
+ 2. Completely Fair Scheduler used in current Linux kernels  
+ 3. Epoll system call implementation[21] uses red–black trees.
 
 
 # Question 2: Minimum Spanning Tree
