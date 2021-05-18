@@ -26,21 +26,21 @@ Analysis of algorithms is the determination of the amount of time and space reso
   
   Applications:
   
-  a) Approximation algorithms for NP-hard problems
-  b) Network Design
-  c) Cluster Analysis
+  1. Approximation algorithms for NP-hard problems
+  2. Network Design
+  3. Cluster Analysis
  
  
  # Question 3: 
  ## Bubble
   Complexity:
- a) Worst and Average Case Time Complexity: O(n*n).
- b) Best Case Time Complexity: O(n). 
+  Worst and Average Case Time Complexity: O(n*n).
+  Best Case Time Complexity: O(n). 
  
  Application:
  
- a) Bubble sort is often used to introduce the concept of a sorting algorithm.
- b) In computer graphics it is popular for its capability to detect a very small error (like swap of just two elements) in almost-sorted arrays and fix it with just linear complexity (2n). 
+ 1. Bubble sort is often used to introduce the concept of a sorting algorithm.
+ 2. In computer graphics it is popular for its capability to detect a very small error (like swap of just two elements) in almost-sorted arrays and fix it with just linear complexity (2n). 
  
  ## Selection
  Complexity:
@@ -48,10 +48,9 @@ Analysis of algorithms is the determination of the amount of time and space reso
 
  Application:
  
- a)Selection sort almost always outperforms bubble sort and gnome sort.
- b)Can be useful when memory write is a costly operation
- c)While selection sort is preferable to insertion sort in terms of number of writes (Θ(n) swaps versus Ο(n^2) swaps).
- d)This can be important if writes are significantly more expensive than reads, such as with EEPROM or Flash memory, where every write lessens the lifespan of the memory.
+ 1. Selection sort almost always outperforms bubble sort and gnome sort.
+ 2. Can be useful when memory write is a costly operation
+ 3. While selection sort is preferable to insertion sort in terms of number of writes (Θ(n) swaps versus Ο(n^2) swaps).
  
  ## Insertion
  Complexity:
@@ -61,9 +60,9 @@ Analysis of algorithms is the determination of the amount of time and space reso
  
  Application:
  
- a)If the cost of comparisons exceeds the cost of swaps, as is the case for example with string keys stored by reference or with human interaction, then using binary insertion sort may yield better performance.
- b)A variant named binary merge sort uses a binary insertion sort to sort groups of 32 elements, followed by a final sort using merge sort.
- c)If a skip list is used, the insertion time is brought down to O(log n), and swaps are not needed because the skip list is implemented on a linked list structure. The final running time for insertion would be O(n log n).
+ 1. If the cost of comparisons exceeds the cost of swaps, as is the case for example with string keys stored by reference or with human interaction, then using binary insertion sort may yield better performance.
+ 2. A variant named binary merge sort uses a binary insertion sort to sort groups of 32 elements, followed by a final sort using merge sort.
+ 3. If a skip list is used, the insertion time is brought down to O(log n), and swaps are not needed because the skip list is implemented on a linked list structure. The final running time for insertion would be O(n log n).
  
  ## Merge
  Complexity:
@@ -73,9 +72,9 @@ Analysis of algorithms is the determination of the amount of time and space reso
   
   Applications:
   
-  a)Merge Sort is useful for sorting linked lists in O(n Log n) time
-  b)Merge sort can be implemented without extra space for linked lists
-  c)Merge sort is used for counting inversions in a list
+  1. Merge Sort is useful for sorting linked lists in O(n Log n) time
+  2. Merge sort can be implemented without extra space for linked lists
+  3. Merge sort is used for counting inversions in a list
   
   ## Quick 
   Complexity:
@@ -85,8 +84,8 @@ Analysis of algorithms is the determination of the amount of time and space reso
   
   Applications:
   
-  a)Quick Sort is a cache friendly sorting algorithm as it has good locality of reference when used for arrays
-  b)Quick Sort is tail recursive and hence, all tail call optimizations can be done
-  c)Quick Sort is an in-place sort that is does not require any extra storage
+  1. Quick Sort is a cache friendly sorting algorithm as it has good locality of reference when used for arrays
+  2. Quick Sort is tail recursive and hence, all tail call optimizations can be done
+  3. Quick Sort is an in-place sort that is does not require any extra storage
 
  
